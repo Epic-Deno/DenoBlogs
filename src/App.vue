@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Autor: Pony
  * @Date: 2020-08-16 15:13:39
- * @LastEditors: PONY ZHANG
- * @LastEditTime: 2021-04-12 18:20:36
+ * @LastEditors: ZHANG ZHEN
+ * @LastEditTime: 2021-06-19 22:34:33
 -->
 <template>
   <div id="app">
@@ -15,7 +15,7 @@
     <navBar v-if="isNav" />
     <div class="music-box">
       <iframe
-      v-show="isPlayer"
+        v-show="isPlayer"
         frameborder="no"
         border="0"
         marginwidth="0"

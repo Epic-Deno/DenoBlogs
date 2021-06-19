@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Autor: Pony
  * @Date: 2020-08-16 15:13:39
- * @LastEditors: PONY ZHANG
- * @LastEditTime: 2021-04-12 18:20:09
+ * @LastEditors: ZHANG ZHEN
+ * @LastEditTime: 2021-06-19 22:32:22
 -->
 <template>
   <div class="home viewBox">
@@ -16,6 +16,7 @@
       </div>
       <i class="iconfont down" @click="ScrollTop">&#xe739;</i>
     </div>
+    <transition name="fade">
     <div class="user-base-content">
       <div
         class="list-item"
@@ -55,6 +56,7 @@
         <a>2020-08-17</a>
       </div>
     </div>
+    </transition>
     <div class="back-top" :style="{'width':backTop}" @click="backView" title="回到顶部"></div>
   </div>
 </template>
@@ -79,7 +81,7 @@ export default {
         window.pageYOffset ||
         document.documentElement.scrollTop ||
         document.body.scrollTop;
-      let mainHeight = document.getElementsByClassName('viewBox')[0].offsetHeight
+      let mainHeight = document.getElementsByClassName('viewBox')[0].offsetHeight - document.getElementsByClassName('main_view')[0].clientHeight;
       this.backTop = `${(scrollTop/mainHeight)*100}%`
     },
     ScrollTop() {
@@ -93,6 +95,12 @@ export default {
 };
 </script>
 <style lang="less" scoped>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .1s ease-in-out;
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
 .main_view {
   width: 100%;
   height: 100vh;
@@ -134,7 +142,7 @@ export default {
   max-width: 900px;
   height: 100%;
   margin: 0 auto;
-  padding: 10px 15px;
+  padding: 10px 15px 40px;
   background: hsla(0, 0%, 100%, 0.5);
   .list-item {
     margin: 0 auto;
