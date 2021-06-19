@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Autor: Pony
  * @Date: 2020-08-16 15:13:39
- * @LastEditors: Pony
- * @LastEditTime: 2020-10-18 17:45:46
+ * @LastEditors: PONY ZHANG
+ * @LastEditTime: 2021-04-12 18:20:36
 -->
 <template>
   <div id="app">
@@ -24,9 +24,9 @@
         height="52"
         src="//music.163.com/outchain/player?type=2&id=411214148&auto=1&height=32"
       ></iframe>
-      <div class="bars" @click="closePlayers">
+      <!-- <div class="bars" @click="closePlayers">
         <img src="./assets/img/open.png" alt="" />
-      </div>
+      </div> -->
       <!-- <img src="" alt="" /> -->
     </div>
   </div>
@@ -41,7 +41,7 @@ export default {
   },
   data() {
     return {
-      isPlayer:false,
+      isPlayer:true,
       isNav: true,
     };
   },

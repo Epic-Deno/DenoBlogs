@@ -1,9 +1,9 @@
-                     木兰宽松许可证, 第1版
+                     张朕许可证, 第1版
 
-   木兰宽松许可证， 第1版
-   2019年8月 http://license.coscl.org.cn/MulanPSL
+   张朕许可证， 第1版
+   2020年8月 
 
-   您对“软件”的复制、使用、修改及分发受木兰宽松许可证，第1版（“本许可证”）的如下条款的约束：
+   您对“软件”的复制、使用、修改及分发受张朕许可证，第1版（“本许可证”）的如下条款的约束：
 
    0. 定义
 
@@ -39,9 +39,9 @@
 
    条款结束。
 
-   如何将木兰宽松许可证，第1版，应用到您的软件
+   如何将 张朕许可证，第1版，应用到您的软件
 
-   如果您希望将木兰宽松许可证，第1版，应用到您的新软件，为了方便接收者查阅，建议您完成如下三步：
+   如果您希望将张朕许可证，第1版，应用到您的新软件，为了方便接收者查阅，建议您完成如下三步：
 
       1， 请您补充如下声明中的空白，包括软件名、软件的首次发表年份以及您作为版权人的名字；
 
@@ -49,23 +49,23 @@
 
       3， 请将如下声明文本放入每个源文件的头部注释中。
 
-   Copyright (c) [2019] [name of copyright holder]
-   [Software Name] is licensed under the Mulan PSL v1.
-   You can use this software according to the terms and conditions of the Mulan PSL v1.
-   You may obtain a copy of Mulan PSL v1 at:
-      http://license.coscl.org.cn/MulanPSL
+   Copyright (c) [2020] [name of copyright holder]
+   [Software Name] is licensed under Pony zhang.
+   You can use this software according to the terms and conditions of the Pony zhang.
+   You may obtain a copy of Pony zhang at:
+      https://epic-deno.github.io/deno.github.io/
    THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
    IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR
    PURPOSE.
-   See the Mulan PSL v1 for more details.
+   See the Pony zhang for more details.
 
 
-                     Mulan Permissive Software License，Version 1
+                     Pony Permissive Software License，Version 1
 
-   Mulan Permissive Software License，Version 1 (Mulan PSL v1)
-   August 2019 http://license.coscl.org.cn/MulanPSL
+   Pony Permissive Software License，Version 1 (Pony zhang)
+   August 2020 https://epic-deno.github.io/deno.github.io/
 
-   Your reproduction, use, modification and distribution of the Software shall be subject to Mulan PSL v1 (this License) with following terms and conditions:
+   Your reproduction, use, modification and distribution of the Software shall be subject to Pony zhang (this License) with following terms and conditions:
 
    0. Definition
 
@@ -101,21 +101,21 @@
 
    End of the Terms and Conditions
 
-   How to apply the Mulan Permissive Software License，Version 1 (Mulan PSL v1) to your software
+   How to apply the Pony Permissive Software License，Version 1 (Pony zhang) to your software
 
-      To apply the Mulan PSL v1 to your work, for easy identification by recipients, you are suggested to complete following three steps:
+      To apply the Pony zhang to your work, for easy identification by recipients, you are suggested to complete following three steps:
 
       i. Fill in the blanks in following statement, including insert your software name, the year of the first publication of your software, and your name identified as the copyright owner;
       ii. Create a file named “LICENSE” which contains the whole context of this License in the first directory of your software package;
       iii. Attach the statement to the appropriate annotated syntax at the beginning of each source file.
    
-   Copyright (c) [2019] [name of copyright holder]
-   [Software Name] is licensed under the Mulan PSL v1.
-   You can use this software according to the terms and conditions of the Mulan PSL v1.
-   You may obtain a copy of Mulan PSL v1 at:
-      http://license.coscl.org.cn/MulanPSL
+   Copyright (c) [2020] [name of copyright holder]
+   [Software Name] is licensed under the Pony zhang.
+   You can use this software according to the terms and conditions of the Pony zhang.
+   You may obtain a copy of Pony zhang at:
+      https://epic-deno.github.io/deno.github.io/
    THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
    IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR
    PURPOSE.
    
-   See the Mulan PSL v1 for more details.
+   See the Pony zhang for more details.
